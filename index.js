@@ -7,10 +7,13 @@ let classA = class {
     bar() {
         return "bar";
     }
+    lorem() {
+        return "lorem ipsum";
+    }
 }
 
 let objA = new classA();
-console.log(objA.foo(), objA.bar());
+console.log(objA.foo(), objA.bar(), objA.lorem());
 
 // Class B
 let classB = class {
