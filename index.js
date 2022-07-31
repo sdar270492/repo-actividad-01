@@ -24,3 +24,12 @@ let objB = new classB();
 console.log(objB.hello());
 
 // Class C
+let classC = class {
+    constructor() {}
+    world() {
+        return "world";
+    }
+}
+
+let objC = new classC();
+console.log(objC.world());
